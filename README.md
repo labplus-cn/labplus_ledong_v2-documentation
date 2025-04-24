@@ -3,10 +3,10 @@ https://mpython-pro.readthedocs.io/zh-cn/latest/index.html
 
 ## 乐动掌控v2  在线文档
 
-git remote add origin https://github.com/labplus-cn/mpython_pro-documentation.git
+git remote add origin https://github.com/labplus-cn/labplus_ledong_v2-documentation.git
 ## 编译步骤
 
-git clone https://github.com/labplus-cn/mpython_pro-documentation.git
+git clone https://github.com/labplus-cn/labplus_ledong_v2-documentation.git
 
 python3环境安装依赖库
 
