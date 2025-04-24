@@ -1,7 +1,7 @@
-# 掌控板3.0 在线文档仓库
+# 乐动掌控v2 在线文档仓库
 https://mpython-pro.readthedocs.io/zh-cn/latest/index.html
 
-## 掌控板3.0 在线文档
+## 乐动掌控v2  在线文档
 
 git remote add origin https://github.com/labplus-cn/mpython_pro-documentation.git
 ## 编译步骤

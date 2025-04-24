@@ -1,4 +1,4 @@
-掌控板3.0 
+乐动掌控v2  
 ======================================================
    hardware_introduction/1_introduce.rst
    hardware_introduction/2_characteristic.rst
