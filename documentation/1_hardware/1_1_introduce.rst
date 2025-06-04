@@ -1,7 +1,7 @@
 1.1. 乐动掌控v2  简介
 ========================= 
 
-.. figure:: /_static/image/hardware/ledong_v2.png
+.. figure:: /../_static/image/hardware/ledong_v2.png
     :align: center
     :width: 1292
 
