@@ -8,9 +8,9 @@
 
 乐动掌控v2是一块内置MicroPython解释器的微控制器板，它集成ESP32-S3高性能双核芯片，使用当下最流行的Python编程语言，以便您轻松地将代码从电脑传输到掌控板中，从而体验程序创作的无穷乐趣
 
-.. figure:: /_static/image/ledong_v2.png
+.. figure:: /_static/image/hardware/ledong_v2.png
     :align: center
-    :width: 2160
+    :width: 1292
 
 
 | **掌控板官网**: https://www.mpython.cn
