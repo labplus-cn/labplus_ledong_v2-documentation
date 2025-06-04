@@ -1,9 +1,9 @@
 1.1. 乐动掌控v2  简介
 ========================= 
 
-.. figure:: /../_static/image/hardware/ledong_v2.png
+.. figure:: /_static/image/hardware/ledong_v2.png
     :align: center
-    :width: 650
+    :width: 1292
 
 乐动掌控v2 是一款教学用开源硬件，具有丰富的应用场景，满足AIOT物联网教学需求。
 
