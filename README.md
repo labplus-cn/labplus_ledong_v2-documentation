@@ -1,5 +1,5 @@
 # 乐动掌控v2 在线文档仓库
-https://mpython-pro.readthedocs.io/zh-cn/latest/index.html
+https://labplus-ledong-v2-documentation.readthedocs.io/zh-cn/latest/#
 
 ## 乐动掌控v2  在线文档
 
