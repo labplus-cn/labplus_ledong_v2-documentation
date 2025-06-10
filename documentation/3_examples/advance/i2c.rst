@@ -26,7 +26,7 @@ Master
 以下SHT20模块作为演示说明，如何读取从机设备数据。
 
 
-.. figure:: http://wiki.labplus.cn/images/1/1c/黑色传感器最终版12.20-28.png
+.. figure:: /_static/image/example/dht11.png
     :align: center
     :width: 250
 
