@@ -1,7 +1,11 @@
-6. 掌控板玩小智
+6. 掌控板3.0玩小智
 ==================
 
 .. toctree::
    :maxdepth: 1
 
-   1_1_introduction.rst
+   1_xiaozhi.rst
+   2_xiaozhi.rst
+   3_xiaozhi.rst
+   .. 3_xiaozhi-faq.rst
+

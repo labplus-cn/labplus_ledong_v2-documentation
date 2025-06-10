@@ -22,9 +22,7 @@
 
     while True:
         value=p5.read_digital()      # 读取P5引脚的数字输入
-        oled.DispChar("Button_a:%d" %value,30,20)   # 将读取到值显示至oled上
-        oled.show()                                  # 刷新
-        oled.fill(0)                                 # 清屏
+        print("Button_a:%d" %value)   # 读取到值
 
 .. Note::
 
@@ -68,7 +66,7 @@
 
     上面需要使用到一块面包板、1个LED灯、mPython拓展板、杜邦线。LED灯的正极连接至掌控板的P0引脚,LED负极连接至掌控板的GND。
 
-.. image:: /_static/image/tutorials/blink.gif
+.. .. image:: /_static/image/tutorials/blink.gif
 
 ::
 
