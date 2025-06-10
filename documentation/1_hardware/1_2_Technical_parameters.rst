@@ -6,7 +6,7 @@
 
 .. image:: /_static/image/hardware/板载器件图.png
     :align: center
-    :width: 1000
+    :width: 1161
 
 .. csv-table:: 硬件参数
     :header: "序号", "硬件", "型号规格"
