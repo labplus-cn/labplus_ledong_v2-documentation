@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = '乐动掌控v2 '
+project = '乐动掌控2.0 '
 copyright = '2025, 深圳盛思科教文化有限公司 www.labplus.cn'
 author = '深圳盛思科教文化有限公司'
 
@@ -31,7 +31,7 @@ master_doc = 'index'
 # ones.
 extensions = ['recommonmark',
   'sphinx_markdown_tables',
-  'sphinxcontrib.pdfembed'
+  'sphinxcontrib.video'
 ]
 
 # The suffix(es) of source filenames.

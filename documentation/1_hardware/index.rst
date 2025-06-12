@@ -1,4 +1,4 @@
-乐动掌控v2
+乐动掌控2.0
 ======================================================
    hardware_introduction/1_introduce.rst
    hardware_introduction/2_characteristic.rst
