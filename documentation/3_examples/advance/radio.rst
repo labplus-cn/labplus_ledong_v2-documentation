@@ -32,7 +32,7 @@ radio
 
     实例化Radio
 
-    :param wifi_ch: 设置信道 0-14
+    :param wifi_ch: 设置信道 0-11
     :type wifi_ch: int
 
 
