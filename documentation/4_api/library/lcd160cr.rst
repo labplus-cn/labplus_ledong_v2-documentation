@@ -26,13 +26,13 @@ For example::
 
     import lcd160cr
 
-    lcd = lcd160cr.LCD160CR('X')
-    lcd.set_orient(lcd160cr.PORTRAIT)
-    lcd.set_pos(0, 0)
-    lcd.set_text_color(lcd.rgb(255, 0, 0), lcd.rgb(0, 0, 0))
-    lcd.set_font(1)
-    lcd.write('Hello MicroPython!')
-    print('touch:', lcd.get_touch())
+    LCD = lcd160cr.LCD160CR('X')
+    LCD.set_orient(lcd160cr.PORTRAIT)
+    LCD.set_pos(0, 0)
+    LCD.set_text_color(LCD.rgb(255, 0, 0), LCD.rgb(0, 0, 0))
+    LCD.set_font(1)
+    LCD.write('Hello MicroPython!')
+    print('touch:', LCD.get_touch())
 
 Constructors
 ------------

@@ -141,7 +141,7 @@ OLED可绘制一些点、直线、矩形等形状。
 
 首先我们需要将图像处理为大小128*64，颜色深度为1或者就是黑白模式的bmp格式。您可以使用Photoshop或者其他的图像处理软件。
 
-接下来是使用取模工具对图片进行取模。网上有PCtoLCD、lcd image converter等取模软件，可根据自己喜好自行选择。以下使用的是 :download:`Img2Lcd工具 </../docs/tools/Image2Lcd.zip>` 。
+接下来是使用取模工具对图片进行取模。网上有PCtoLCD、LCD image converter等取模软件，可根据自己喜好自行选择。以下使用的是 :download:`Img2Lcd工具 </../docs/tools/Image2Lcd.zip>` 。
 
 * 步骤1.导入128x64，bmp格式图片
 * 步骤2.选择参数，输出数据类型[C语言数组]、  扫描模式[水平扫描]、输出灰度[单色]、宽高[128*64]

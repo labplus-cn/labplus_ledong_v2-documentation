@@ -7,7 +7,7 @@
 
 	repl.rst
 	io/index.rst
-	lcd.rst
+	LCD.rst
 	neopixel.rst
 	buzz.rst
 	buttons.rst

@@ -49,7 +49,7 @@
 	# 使绘制的内容更新到屏幕上
 	gui.update()
 
-.. figure:: /_static/image/example/lcd/draw_label.png
+.. figure:: /_static/image/example/LCD/draw_label.png
 	:width: 400px
 	:align: center
 
@@ -61,7 +61,7 @@
 
 掌控板屏幕分辨率为 **320 x 172**，左上角坐标为 **(0, 0)**，右下角坐标为 **(320, 172)**。横向向右x坐标增大，纵坐标向下y坐标增大。
 
-.. figure:: /_static/image/example/lcd/lcd_size.png
+.. figure:: /_static/image/example/LCD/lcd_size.png
 	:width: 400px
 	:align: center
 
@@ -88,7 +88,7 @@
 	gui.update()
 
 
-.. figure:: /_static/image/example/lcd/lcd_color.png
+.. figure:: /_static/image/example/LCD/lcd_color.png
 	:width: 400px
 	:align: center
 
@@ -206,13 +206,13 @@
 
 首先我们需要将图像处理为大小320*172，颜色深度为1或者就是黑白模式的bmp格式。您可以使用Photoshop或者其他的图像处理软件。
 
-接下来是使用取模工具对图片进行取模。网上有PCtoLCD、lcd image converter等取模软件，可根据自己喜好自行选择。以下使用的是 :download:`Img2Lcd工具 </../docs/tools/Image2Lcd.zip>` 。
+接下来是使用取模工具对图片进行取模。网上有PCtoLCD、LCD image converter等取模软件，可根据自己喜好自行选择。以下使用的是 :download:`Img2Lcd工具 </../docs/tools/Image2Lcd.zip>` 。
 
 * 步骤1.导入320x172，bmp格式图片
 * 步骤2.选择参数，输出数据类型[C语言数组]、  扫描模式[水平扫描]、输出灰度[单色]、宽高[320*172]
 * 步骤3.点击保存，自动生成取模数据。
 
-.. image:: /_static/image/example/lcd/lcd_image2lcd.png
+.. image:: /_static/image/example/LCD/lcd_image2lcd.png
 
 
 将取模数据赋值给bmp数组中，然后显示在LCD显示屏上。
@@ -668,7 +668,7 @@
 	| ``bitmap_data`` 为图片数据，类型为需要是16进制的列表（List）类型
 
 
-.. figure:: /_static/image/example/lcd/lcd_bmp.png
+.. figure:: /_static/image/example/LCD/lcd_bmp.png
 	:scale: 50 %
 	:align: center
 
@@ -679,7 +679,7 @@
 准备一张png格式的图片。图片尺寸不建议过大，保持小于或等于屏幕效果最佳。
 然后上传到掌控板上，如下图：
 
-.. figure:: /_static/image/example/lcd/lcd_upload_img.png
+.. figure:: /_static/image/example/LCD/lcd_upload_img.png
 	:width: 400px
 	:align: center
 
@@ -701,7 +701,7 @@
 	| ``x``、 ``y`` 为左上角坐标(x, y)
 	| ``path`` 为图片路径
 
-.. figure:: /_static/image/example/lcd/lcd_img.png
+.. figure:: /_static/image/example/LCD/lcd_img.png
 	:width: 400px
 	:align: center
 

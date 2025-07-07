@@ -35,4 +35,4 @@ while True:
         image.draw_rectangle(max_blobs.rect())
         # draw cross
         image.draw_cross(max_blobs.cx(), max_blobs.cy())
-    lcd.display()
+    LCD.display()
