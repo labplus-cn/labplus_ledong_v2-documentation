@@ -6,6 +6,8 @@
 
 欢迎您，使用乐动掌控2.0！
 
+掌控板是创客教育专家委员会、猫友汇、广大一线老师共同提出需求并与创客教育行业优秀企业代表共同参与研发的教具、学具，是一块为教育而生的开源硬件，也是一个公益项目。
+
 乐动掌控2.0是一块内置MicroPython解释器的微控制器板，它集成ESP32-S3高性能双核芯片，使用当下最流行的Python编程语言，以便您轻松地将代码从电脑传输到掌控板中，从而体验程序创作的无穷乐趣
 
 .. figure:: /_static/image/hardware/ledong_v2.png
@@ -26,9 +28,9 @@
     1_hardware/1_index.rst
     2_software/1_index.rst
     3_examples/1_index.rst
-    5_C_program/index.rst
-    6_xiaozhi/1_index.rst
-    7_faq/1_index.rst
-    8_license/1_index.rst
-.. 4_api/1_index.rst
+    4_xiaozhi/1_index.rst
+    5_api/1_index.rst
+    6_faq/1_index.rst
+    LICENSE.rst
+
 
