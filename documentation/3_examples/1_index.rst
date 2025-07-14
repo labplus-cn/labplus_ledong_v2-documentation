@@ -3,11 +3,31 @@
 ==================
 
 .. toctree::
-    :maxdepth: 2
+   :maxdepth: 2
 
-    /3_examples/basics/index.rst
-    /3_examples/advance/index.rst
-    /3_examples/ImageAI/camera.rst
-    /3_examples/AudioAI/index.rst
-    /3_examples/Agent/index.rst
-.. /3_examples/classic/index.rst
+   ImageAI/camera.rst
+   AudioAI/index.rst
+   Agent/index.rst
+   basics/repl.rst
+   basics/neopixel.rst
+   basics/io/index.rst
+   basics/lcd.rst
+   basics/buzz.rst
+   basics/buttons.rst
+   basics/touchpad.rst
+   basics/sound.rst
+   basics/light.rst
+   basics/accelerometer.rst
+   basics/gyroscope.rst
+   basics/network/index.rst
+   basics/uart.rst
+   advance/iot/index.rst
+   advance/random.rst
+   advance/timer.rst
+   advance/radio.rst
+   advance/i2c.rst
+   advance/thread.rst
+   advance/filesystem.rst
+
+..   classic/index.rst
+	

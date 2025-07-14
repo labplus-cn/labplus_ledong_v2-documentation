@@ -2,7 +2,7 @@
 ==================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    1_xiaozhi.rst
    2_xiaozhi.rst
