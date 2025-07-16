@@ -21,6 +21,7 @@
    basics/gyroscope.rst
    basics/network/index.rst
    basics/uart.rst
+   basics/wifi.rst
    advance/iot/index.rst
    advance/random.rst
    advance/timer.rst
@@ -28,6 +29,7 @@
    advance/i2c.rst
    advance/thread.rst
    advance/filesystem.rst
+   advance/ble.rst
 
 ..   classic/index.rst
 	
