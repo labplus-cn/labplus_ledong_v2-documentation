@@ -238,7 +238,7 @@ gyroscope
 
 magnetic
 -----------
-MMC5983MA磁力计函数接口,可获取3轴地磁感应强度、地磁场强度、获取电子罗盘角度。
+MMC5983MA磁力计函数接口,可获取3轴 磁感应强度、地磁场强度、获取电子罗盘角度。
 
 .. Attention:: 掌控板v2.0版本以上,才有MMC5983MA磁力计！
 
@@ -326,7 +326,7 @@ button_[a,b]对象
 ------
 
 掌控板上的a,b按键。button_a/button_b 是 ``Button`` 类的实例对象。使用 :ref:`machine.Pin.irq<Pin.irq>` 中断实现。定义了
-``event_pressed`` 和 ``event_released`` 按键按下、释放事件。 用户可轻易的实现事件回调。除此外，还实现当前或过去按键状态、按键次数等函数方法。
+``event_pressed`` 和 ``event_released`` 按键按下、释放事件。 用户可轻易的实现事件回调。此外，还实现当前或过去按键状态、按键次数等函数方法。
 
 .. class:: Button(pin_num, reverse=False)
 

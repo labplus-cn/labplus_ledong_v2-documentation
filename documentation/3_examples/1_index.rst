@@ -22,6 +22,7 @@
    basics/network/index.rst
    basics/uart.rst
    basics/wifi.rst
+   basics/udp.rst
    advance/iot/index.rst
    advance/random.rst
    advance/timer.rst
