@@ -17,8 +17,8 @@ build:
   apt_packages:
     - graphviz
     - plantuml
-    - fonts-wqy-microhei # 确保安装中文字体
-    - fonts-wqy-zenhei
+    # - fonts-wqy-microhei # 确保安装中文字体
+    # - fonts-wqy-zenhei
     - latexmk
     - xelatex        # 有些镜像可能需要显式安装 texlive-xetex
 
