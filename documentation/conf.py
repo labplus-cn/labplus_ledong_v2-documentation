@@ -69,8 +69,8 @@ html_static_path = ['_static']
 
 
 # 1. 将引擎切换为 xelatex (原生支持 Unicode/中文)
-latex_engine = 'pdflatex'  # 或 'xelatex'、'lualatex'
-latex_use_xindy = False
+latex_engine = 'xelatex'  # 或 'xelatex'、'lualatex'
+# latex_use_xindy = False
 
 # LaTeX 文档类
 latex_documents = [
