@@ -69,7 +69,7 @@ html_static_path = ['_static']
 
 
 # 1. 将引擎切换为 xelatex (原生支持 Unicode/中文)
-latex_engine = 'xelatex'
+latex_engine = 'pdflatex'  # 或 'xelatex'、'lualatex'
 latex_use_xindy = False
 
 # LaTeX 文档类
@@ -79,6 +79,9 @@ latex_documents = [
 
 # 2. 配置 LaTeX 导言区以支持中文渲染
 latex_elements = {
+    # 强制编译，忽略一些错误
+    'extraclassoptions': 'openany,oneside',
+    # 设置纸张大小
     'papersize': 'a4paper',
     'utf8extra': '',
     'inputenc': '',
