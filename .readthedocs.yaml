@@ -9,10 +9,11 @@ build:
   os: ubuntu-20.04
   tools:
     python: "3.8"
-    # You can also specify other tool versions:
-    # nodejs: "20"
-    # rust: "1.70"
-    # golang: "1.20"
+  
+  jobs:
+    # 在检出代码后，更新所有文件的时间戳
+    post_checkout:
+      - find . -exec touch {} +
 
   apt_packages:
     - graphviz
@@ -33,7 +34,7 @@ sphinx:
 # Optionally build your docs in additional formats such as PDF and ePub
 formats:
    - epub
-  #  - htmlzip
+   - htmlzip
 
 # Optional but recommended, declare the Python requirements required
 # to build your documentation
