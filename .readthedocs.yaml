@@ -19,10 +19,16 @@ build:
   apt_packages:
     - graphviz
     - plantuml
+    - texlive-full  # 完整的 TeX Live（注意：这会增加构建时间）
     - texlive-xetex          # 提供 xelatex 命令的核心包
     - texlive-lang-chinese    # 提供中文必要的宏包支持
     - texlive-fonts-recommended # 推荐的字体支持库
     - fonts-wqy-microhei      # 必须：服务器环境下的中文字体
+    - texlive-science
+    - texlive-pictures
+    - latexmk
+    - dvipng  # 用于数学公式渲染
+    - cm-super  # 更好的字体支持
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
@@ -31,6 +37,7 @@ sphinx:
   # builder: "html"
   # Fail on all warnings to avoid broken references
   # fail_on_warning: true
+  fail_on_warning: false
 
 # Optionally build your docs in additional formats such as PDF and ePub
 formats:

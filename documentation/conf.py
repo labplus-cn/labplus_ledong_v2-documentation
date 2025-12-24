@@ -70,7 +70,13 @@ html_static_path = ['_static']
 
 # 1. 将引擎切换为 xelatex (原生支持 Unicode/中文)
 latex_engine = 'xelatex'
-# latex_use_xindy = False
+latex_use_xindy = False
+
+# LaTeX 文档类
+latex_documents = [
+    ('index', 'esp32s3.tex', 'esp32s3', 'labplus', 'manual'),
+]
+
 # 2. 配置 LaTeX 导言区以支持中文渲染
 latex_elements = {
     'papersize': 'a4paper',
