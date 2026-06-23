@@ -1,7 +1,7 @@
 显示
 ======================================
 
-掌控板2.0 板载1.47英寸lcd显示屏，分辨率320x172。内置 ``LVGL`` 的 ``lv_micropython`` 库，因此可以使用lvgl的相关API来进行屏幕绘制。
+掌控板2.0 板载lcd显示屏，分辨率320x172。内置 ``LVGL`` 的 ``lv_micropython`` 库，因此可以使用lvgl的相关API来进行屏幕绘制。
 
 .. _lvgl_url: https://docs.lvgl.io/master
 .. _lv_micropython: https://github.com/lvgl/lv_micropython
